@@ -59,7 +59,7 @@ BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_FLASH_BLOCK_SIZE := 4096
 
 # Build the kernel in-line
-#BUILD_KERNEL := true
+BUILD_KERNEL := true
 TARGET_PREBUILT_KERNEL := device/samsung/manta/kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/manta
 TARGET_KERNEL_CONFIG := manta_defconfig
