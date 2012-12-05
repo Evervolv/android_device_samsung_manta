@@ -62,7 +62,7 @@ BOARD_FLASH_BLOCK_SIZE := 4096
 BUILD_KERNEL := true
 TARGET_PREBUILT_KERNEL := device/samsung/manta/kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/manta
-TARGET_KERNEL_CONFIG := manta_defconfig
+TARGET_KERNEL_CONFIG := evervolv_manta_defconfig
 
 #TARGET_PROVIDES_INIT_RC := true
 #TARGET_USERIMAGES_SPARSE_EXT_DISABLED := true
